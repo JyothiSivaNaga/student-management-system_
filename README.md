@@ -22,6 +22,39 @@ For deeper details, see [FEES_MODULE_COMPLETE.md](FEES_MODULE_COMPLETE.md) and [
 - Node.js 18+ and npm
 - MySQL 8+
 
+## Quick Start (5 Minutes)
+
+1) Install frontend dependencies:
+
+```bash
+npm install
+```
+
+2) Install backend dependencies:
+
+```bash
+cd backend
+npm install
+```
+
+3) Configure MySQL credentials in [backend/db.js](backend/db.js).
+
+4) Run the SQL in [backend/SETUP_FEES_DATABASE.sql](backend/SETUP_FEES_DATABASE.sql).
+
+5) Start backend (in `backend/`):
+
+```bash
+npm run dev
+```
+
+6) Start frontend (project root):
+
+```bash
+npm run dev
+```
+
+7) Open http://localhost:3000
+
 ## Complete Setup Steps
 
 ### 1) Clone and install frontend dependencies
@@ -82,6 +115,12 @@ Backend (run inside `backend/`):
 - [app/](app/) - Next.js pages and layouts
 - [backend/](backend/) - Express API and database setup
 - [components/](components/) - Shared UI components
+
+## API Endpoints
+
+All fees endpoints and request/response examples are documented in:
+
+- [FEES_MODULE_COMPLETE.md](FEES_MODULE_COMPLETE.md)
 
 ## Notes
 
